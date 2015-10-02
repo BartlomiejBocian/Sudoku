@@ -53,7 +53,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testGlobalRowMethod(){
 		assertEquals(true, sv.checkDigitInGlobalRow(validString));
-		assertEquals(false, sv.checkDigitInGlobalRow(inValidString));
+		assertEquals(false, sv.checkDigitInGlobalRow(inValidStringTest3));
 	}
 	
 }

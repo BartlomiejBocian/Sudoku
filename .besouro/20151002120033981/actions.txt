@@ -136,3 +136,5 @@ RefactoringAction 1443781509190 TestSudokuVerifier.java RENAME inValidStringTest
 RefactoringAction 1443781510703 TestSudokuVerifier.java ADD String inValidStringTest1/2 FIELD
 RefactoringAction 1443781515219 TestSudokuVerifier.java RENAME inValidStringTest1/2=>String inValidStringTest3 FIELD
 EditAction 1443781606077 TestSudokuVerifier.java 1564 6 13 8
+CompilationAction 1443781609393 TestSudokuVerifier.java
+EditAction 1443781625337 TestSudokuVerifier.java 1569 6 13 8
