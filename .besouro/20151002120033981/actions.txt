@@ -127,3 +127,12 @@ EditAction 1443781407757 TestSudokuVerifier.java 1255 6 11 8
 UnitTestCaseAction 1443781412181 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443781412182 TestSudokuVerifier FAIL
 EditAction 1443781447013 TestSudokuVerifier.java 1255 6 11 8
+UnitTestCaseAction 1443781451472 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443781451473 TestSudokuVerifier FAIL
+RefactoringAction 1443781474602 TestSudokuVerifier.java RENAME inValidString=>String inValidStringTest FIELD
+RefactoringAction 1443781478114 TestSudokuVerifier.java RENAME inValidStringTest=>String inValidStringTest1 FIELD
+RefactoringAction 1443781506169 TestSudokuVerifier.java ADD String inValidStringTest1/2 FIELD
+RefactoringAction 1443781509190 TestSudokuVerifier.java RENAME inValidStringTest1/2=>String inValidStringTest2 FIELD
+RefactoringAction 1443781510703 TestSudokuVerifier.java ADD String inValidStringTest1/2 FIELD
+RefactoringAction 1443781515219 TestSudokuVerifier.java RENAME inValidStringTest1/2=>String inValidStringTest3 FIELD
+EditAction 1443781606077 TestSudokuVerifier.java 1564 6 13 8
