@@ -124,3 +124,6 @@ EditAction 1443781358356 SudokuVerifier.java 1082 4 6 0
 RefactoringAction 1443781374221 TestSudokuVerifier.java ADD void testSecondRule()/2 METHOD
 RefactoringAction 1443781380732 TestSudokuVerifier.java RENAME testSecondRule()/2=>void testThirdRule() METHOD
 EditAction 1443781407757 TestSudokuVerifier.java 1255 6 11 8
+UnitTestCaseAction 1443781412181 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443781412182 TestSudokuVerifier FAIL
+EditAction 1443781447013 TestSudokuVerifier.java 1255 6 11 8
