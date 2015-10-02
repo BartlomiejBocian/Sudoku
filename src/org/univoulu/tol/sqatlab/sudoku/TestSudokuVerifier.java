@@ -37,6 +37,14 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testThirdRule() {
+		//invalid
+		assertEquals(-3, sv.verify(inValidString));
+		//valid
+		assertEquals(0, sv.verify(validString));
+	}
+	
+	@Test
 	public void testGlobalRowMethod(){
 		assertEquals(true, sv.checkDigitInGlobalRow(validString));
 		assertEquals(false, sv.checkDigitInGlobalRow(inValidString));
