@@ -33,3 +33,20 @@ EditAction 1443777920295 TestSudokuVerifier.java 931 4 7 3
 UnitTestCaseAction 1443777925322 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443777925323 TestSudokuVerifier FAIL
 EditAction 1443778022895 TestSudokuVerifier.java 995 4 8 4
+UnitTestCaseAction 1443778027678 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443778027679 TestSudokuVerifier FAIL
+RefactoringAction 1443778098874 SudokuVerifier.java ADD void validate FIELD
+RefactoringAction 1443778100385 SudokuVerifier.java RENAME validate=>void validateSt FIELD
+RefactoringAction 1443778102396 SudokuVerifier.java RENAME validateSt=>void validateString FIELD
+RefactoringAction 1443778109907 SudokuVerifier.java RENAME validateString=>void validateStringLenght FIELD
+RefactoringAction 1443778111419 SudokuVerifier.java RENAME validateStringLenght=>void validateStringLenght() METHOD
+RefactoringAction 1443778115932 SudokuVerifier.java RENAME validateStringLenght()=>void validateStringLenght(String) METHOD
+RefactoringAction 1443778302740 TestSudokuVerifier.java ADD void testFirstRule()/2 METHOD
+RefactoringAction 1443778307260 TestSudokuVerifier.java RENAME testFirstRule()/2=>void test() METHOD
+RefactoringAction 1443778308780 TestSudokuVerifier.java RENAME test()=>void testle() METHOD
+RefactoringAction 1443778310800 TestSudokuVerifier.java RENAME testle()=>void testlenght() METHOD
+RefactoringAction 1443778313819 TestSudokuVerifier.java RENAME testlenght()=>void testLenght() METHOD
+RefactoringAction 1443778318837 TestSudokuVerifier.java RENAME testLenght()=>void testLenghtMethot() METHOD
+RefactoringAction 1443778320354 TestSudokuVerifier.java RENAME testLenghtMethot()=>void testLenghtMethod() METHOD
+RefactoringAction 1443778332392 TestSudokuVerifier.java ADD SudokuVerifier sv FIELD
+EditAction 1443778355120 TestSudokuVerifier.java 1016 5 7 5
