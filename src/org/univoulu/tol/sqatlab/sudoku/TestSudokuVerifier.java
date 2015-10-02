@@ -43,6 +43,6 @@ public class TestSudokuVerifier {
 		// Act
 		
 		//Assert
-		assertEquals(-1, sv.verify(candidateSolution));
+		assertEquals(true, sv.validateStringLenght(candidateSolution));
 	}
 }

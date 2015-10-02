@@ -51,3 +51,4 @@ RefactoringAction 1443778320354 TestSudokuVerifier.java RENAME testLenghtMethot(
 RefactoringAction 1443778332392 TestSudokuVerifier.java ADD SudokuVerifier sv FIELD
 EditAction 1443778355120 TestSudokuVerifier.java 1016 5 7 5
 EditAction 1443778361362 SudokuVerifier.java 473 3 3 0
+EditAction 1443778399614 TestSudokuVerifier.java 1032 5 7 5
