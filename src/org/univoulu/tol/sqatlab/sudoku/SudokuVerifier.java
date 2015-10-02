@@ -1,5 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -29,6 +32,17 @@ public class SudokuVerifier {
 	}
 	
 	public boolean checkDigitInGlobalRow(String string){
+		Map<Character,Integer> map = new HashMap<Character,Integer>();
+		for (String strTmp : string.split("(?<=\\G.{9})")) {
+			for (int i = 0; i < strTmp.length(); i++) {
+				char c = strTmp.charAt(i);
+				  if (map.containsKey(c)) {
+				    return false;
+				  } else {
+				    map.put(c, 1);
+				  }
+			}
+		}
 		return true;
 	}
 }
