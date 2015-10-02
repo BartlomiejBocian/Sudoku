@@ -13,7 +13,8 @@ public class SudokuVerifier {
 			if(!checkDigitInGlobalRow(candidateSolution)){
 				return -3;
 			}
-		}
+		}else
+			return 1;
 		
 		return 0;
 	}
