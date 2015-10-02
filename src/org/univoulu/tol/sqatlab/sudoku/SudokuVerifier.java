@@ -15,4 +15,11 @@ public class SudokuVerifier {
 		}
 	}
 	
+	public boolean validateStringLenght(String string){
+		if(string.length() == 81)
+			return true;
+		else {
+			return false;
+		}
+	}
 }
