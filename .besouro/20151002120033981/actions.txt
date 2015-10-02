@@ -13,3 +13,8 @@ RefactoringAction 1443776956826 TestSudokuVerifier.java ADD import org.junit.Bef
 EditAction 1443777047417 TestSudokuVerifier.java 474 2 3 1
 RefactoringAction 1443777146031 TestSudokuVerifier.java ADD void checkIfSudokuIsValid() METHOD
 EditAction 1443777175309 TestSudokuVerifier.java 663 3 5 2
+UnitTestCaseAction 1443777206108 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777206131 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443777218073 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777218074 TestSudokuVerifier FAIL
+EditAction 1443777385682 TestSudokuVerifier.java 744 3 5 2
