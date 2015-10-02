@@ -58,3 +58,11 @@ RefactoringAction 1443778653385 TestSudokuVerifier.java REMOVE testVerifyPositve
 RefactoringAction 1443778663916 TestSudokuVerifier.java REMOVE testLenghtMethod() METHOD
 EditAction 1443778690407 TestSudokuVerifier.java 688 3 4 2
 EditAction 1443778693986 SudokuVerifier.java 556 3 4 0
+UnitTestCaseAction 1443778698704 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443778698706 TestSudokuVerifier FAIL
+RefactoringAction 1443778964731 TestSudokuVerifier.java RENAME candidateSolution=>String valid FIELD
+RefactoringAction 1443778966243 TestSudokuVerifier.java RENAME valid=>String validStrin FIELD
+RefactoringAction 1443778967257 TestSudokuVerifier.java RENAME validStrin=>String validString FIELD
+RefactoringAction 1443778967834 TestSudokuVerifier.java RENAME validString=>String candidateSolution FIELD
+RefactoringAction 1443778968879 TestSudokuVerifier.java RENAME candidateSolution=>String validString FIELD
+EditAction 1443778968885 TestSudokuVerifier.java 664 3 4 2
