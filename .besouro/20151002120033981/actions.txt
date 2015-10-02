@@ -107,3 +107,5 @@ RefactoringAction 1443780247694 SudokuVerifier.java RENAME checkDigitInGlobal=>b
 RefactoringAction 1443780249201 SudokuVerifier.java RENAME checkDigitInGlobalRow=>boolean checkDigitInGlobalRow() METHOD
 RefactoringAction 1443780254212 SudokuVerifier.java RENAME checkDigitInGlobalRow()=>boolean checkDigitInGlobalRow(String) METHOD
 EditAction 1443780281643 TestSudokuVerifier.java 1028 5 8 5
+CompilationAction 1443780284961 TestSudokuVerifier.java
+EditAction 1443780285070 SudokuVerifier.java 638 4 5 0

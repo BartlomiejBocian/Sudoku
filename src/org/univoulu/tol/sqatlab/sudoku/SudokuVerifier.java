@@ -27,4 +27,8 @@ public class SudokuVerifier {
 			return false;
 		}
 	}
+	
+	public boolean checkDigitInGlobalRow(String string){
+		return true;
+	}
 }
