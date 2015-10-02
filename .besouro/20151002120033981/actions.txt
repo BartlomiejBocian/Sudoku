@@ -18,3 +18,11 @@ UnitTestSessionAction 1443777206131 TestSudokuVerifier FAIL
 UnitTestCaseAction 1443777218073 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443777218074 TestSudokuVerifier FAIL
 EditAction 1443777385682 TestSudokuVerifier.java 744 3 5 2
+RefactoringAction 1443777464592 SudokuVerifier.java ADD void ve FIELD
+RefactoringAction 1443777468104 SudokuVerifier.java RENAME ve=>void verify FIELD
+RefactoringAction 1443777471115 SudokuVerifier.java RENAME verify=>void verifyPosituve FIELD
+RefactoringAction 1443777473625 SudokuVerifier.java RENAME verifyPosituve=>void verifyPosituveDigits FIELD
+RefactoringAction 1443777475136 SudokuVerifier.java RENAME verifyPosituveDigits=>void verifyPosituveDigits() METHOD
+RefactoringAction 1443777484159 SudokuVerifier.java RENAME verifyPosituveDigits()=>void verifyPosituveDigits(String) METHOD
+RefactoringAction 1443777497190 SudokuVerifier.java RENAME verifyPosituveDigits(String)=>void verifyPositveDigits(String) METHOD
+EditAction 1443777785087 SudokuVerifier.java 337 2 2 0
