@@ -30,3 +30,6 @@ RefactoringAction 1443777836430 TestSudokuVerifier.java RENAME checkFirstRule()=
 RefactoringAction 1443777843947 TestSudokuVerifier.java RENAME checkIfSudokuIsValid()=>void testIfSudokuIsValid() METHOD
 RefactoringAction 1443777848964 TestSudokuVerifier.java ADD void testVerifyPositveDigits() METHOD
 EditAction 1443777920295 TestSudokuVerifier.java 931 4 7 3
+UnitTestCaseAction 1443777925322 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443777925323 TestSudokuVerifier FAIL
+EditAction 1443778022895 TestSudokuVerifier.java 995 4 8 4

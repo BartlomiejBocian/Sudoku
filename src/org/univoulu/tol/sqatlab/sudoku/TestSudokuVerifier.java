@@ -28,6 +28,7 @@ public class TestSudokuVerifier {
     	SudokuVerifier sv = new SudokuVerifier();
     	
     	assertEquals(1, sv.verifyPositveDigits(candidateSolution));
+    	assertEquals(-1, sv.verifyPositveDigits("0rvwsv0000-1"));
     }
     
 	@Test
