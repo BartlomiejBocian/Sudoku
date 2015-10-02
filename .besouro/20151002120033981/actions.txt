@@ -90,3 +90,6 @@ UnitTestSessionAction 1443779495088 TestSudokuVerifier FAIL
 RefactoringAction 1443779509911 TestSudokuVerifier.java RENAME testFirstRule()=>void testFirstRuleNegati() METHOD
 RefactoringAction 1443779511922 TestSudokuVerifier.java RENAME testFirstRuleNegati()=>void testFirstRule() METHOD
 EditAction 1443779561138 TestSudokuVerifier.java 890 4 7 4
+UnitTestCaseAction 1443779565559 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443779565560 TestSudokuVerifier FAIL
+EditAction 1443779600732 TestSudokuVerifier.java 914 4 7 4
