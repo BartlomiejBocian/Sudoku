@@ -35,7 +35,7 @@ public class SudokuVerifier {
 		}
 	}
 	
-	public boolean checkDigitInGlobalRow(String string){
+	private boolean checkDigitInGlobalRow(String string){
 		for (String strTmp : string.split("(?<=\\G.{9})")) {
 			Map<Character,Integer> map = new HashMap<Character,Integer>();
 			for (int i = 0; i < strTmp.length(); i++) {
