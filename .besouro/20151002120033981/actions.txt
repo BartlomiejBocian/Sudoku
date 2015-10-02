@@ -114,3 +114,4 @@ UnitTestSessionAction 1443780289360 TestSudokuVerifier FAIL
 RefactoringAction 1443780864028 SudokuVerifier.java ADD import java.util.Map IMPORT
 RefactoringAction 1443780902891 SudokuVerifier.java ADD import java.util.HashMap IMPORT
 EditAction 1443780945383 SudokuVerifier.java 1008 4 7 0
+EditAction 1443780978031 TestSudokuVerifier.java 1093 5 9 6
