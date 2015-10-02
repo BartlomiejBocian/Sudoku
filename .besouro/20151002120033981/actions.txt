@@ -26,3 +26,7 @@ RefactoringAction 1443777475136 SudokuVerifier.java RENAME verifyPosituveDigits=
 RefactoringAction 1443777484159 SudokuVerifier.java RENAME verifyPosituveDigits()=>void verifyPosituveDigits(String) METHOD
 RefactoringAction 1443777497190 SudokuVerifier.java RENAME verifyPosituveDigits(String)=>void verifyPositveDigits(String) METHOD
 EditAction 1443777785087 SudokuVerifier.java 337 2 2 0
+RefactoringAction 1443777836430 TestSudokuVerifier.java RENAME checkFirstRule()=>void testFirstRule() METHOD
+RefactoringAction 1443777843947 TestSudokuVerifier.java RENAME checkIfSudokuIsValid()=>void testIfSudokuIsValid() METHOD
+RefactoringAction 1443777848964 TestSudokuVerifier.java ADD void testVerifyPositveDigits() METHOD
+EditAction 1443777920295 TestSudokuVerifier.java 931 4 7 3

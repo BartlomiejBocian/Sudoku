@@ -15,7 +15,7 @@ public class TestSudokuVerifier {
     }
 	
     @Test
-    public void checkIfSudokuIsValid(){
+    public void testIfSudokuIsValid(){
     	SudokuVerifier sv = new SudokuVerifier();
 		// Act
 		
@@ -23,8 +23,15 @@ public class TestSudokuVerifier {
 		assertEquals(0, sv.verify(candidateSolution));
     }
     
+    @Test
+    public void testVerifyPositveDigits(){
+    	SudokuVerifier sv = new SudokuVerifier();
+    	
+    	assertEquals(1, sv.verifyPositveDigits(candidateSolution));
+    }
+    
 	@Test
-	public void checkFirstRule() {
+	public void testFirstRule() {
 		//Arrange
 		SudokuVerifier sv = new SudokuVerifier();
 		// Act
