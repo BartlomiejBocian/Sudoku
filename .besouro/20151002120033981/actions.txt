@@ -85,3 +85,8 @@ RefactoringAction 1443779374499 TestSudokuVerifier.java RENAME testSecund=>void 
 RefactoringAction 1443779377010 TestSudokuVerifier.java RENAME testSecond=>void testSecondRule FIELD
 RefactoringAction 1443779382533 TestSudokuVerifier.java RENAME testSecondRule=>void testSecondRule() METHOD
 EditAction 1443779488619 TestSudokuVerifier.java 846 4 6 3
+UnitTestCaseAction 1443779495087 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443779495088 TestSudokuVerifier FAIL
+RefactoringAction 1443779509911 TestSudokuVerifier.java RENAME testFirstRule()=>void testFirstRuleNegati() METHOD
+RefactoringAction 1443779511922 TestSudokuVerifier.java RENAME testFirstRuleNegati()=>void testFirstRule() METHOD
+EditAction 1443779561138 TestSudokuVerifier.java 890 4 7 4

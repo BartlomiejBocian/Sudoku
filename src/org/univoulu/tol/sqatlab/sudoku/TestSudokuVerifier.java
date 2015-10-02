@@ -26,6 +26,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testFirstRule() {
 		assertEquals(-1, sv.verify(inValidString));
+		assertEquals(0, sv.verify(validString));
 	}
 	
 	@Test
