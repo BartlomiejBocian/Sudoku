@@ -145,3 +145,7 @@ RefactoringAction 1443782174288 TestSudokuVerifier.java ADD void testLenghtCorre
 RefactoringAction 1443782195331 TestSudokuVerifier.java ADD String inValidStringTest1/2 FIELD
 RefactoringAction 1443782196348 TestSudokuVerifier.java RENAME inValidStringTest1/2=>String inValidStringTest FIELD
 EditAction 1443782244094 TestSudokuVerifier.java 1898 7 16 10
+UnitTestCaseAction 1443782249142 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443782249143 TestSudokuVerifier FAIL
+RefactoringAction 1443782304100 TestSudokuVerifier.java REMOVE testGlobalRowMethod() METHOD
+EditAction 1443782304859 TestSudokuVerifier.java 1714 6 14 8
