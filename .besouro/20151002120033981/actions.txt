@@ -93,3 +93,17 @@ EditAction 1443779561138 TestSudokuVerifier.java 890 4 7 4
 UnitTestCaseAction 1443779565559 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443779565560 TestSudokuVerifier FAIL
 EditAction 1443779600732 TestSudokuVerifier.java 914 4 7 4
+RefactoringAction 1443779998954 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443780005468 TestSudokuVerifier.java RENAME test=>void testSubString FIELD
+RefactoringAction 1443780010481 TestSudokuVerifier.java RENAME testSubString=>void testSubStringMethod FIELD
+RefactoringAction 1443780011496 TestSudokuVerifier.java RENAME testSubStringMethod=>void testSubStringMethod() METHOD
+RefactoringAction 1443780220134 TestSudokuVerifier.java RENAME testSubStringMethod()=>void testGlobalStringMethod() METHOD
+RefactoringAction 1443780225151 TestSudokuVerifier.java RENAME testGlobalStringMethod()=>void testGlobalRowMethod() METHOD
+RefactoringAction 1443780236665 SudokuVerifier.java ADD boolean check FIELD
+RefactoringAction 1443780240173 SudokuVerifier.java RENAME check=>boolean checkDigit FIELD
+RefactoringAction 1443780241679 SudokuVerifier.java RENAME checkDigit=>boolean checkDigitIn FIELD
+RefactoringAction 1443780244687 SudokuVerifier.java RENAME checkDigitIn=>boolean checkDigitInGlobal FIELD
+RefactoringAction 1443780247694 SudokuVerifier.java RENAME checkDigitInGlobal=>boolean checkDigitInGlobalRow FIELD
+RefactoringAction 1443780249201 SudokuVerifier.java RENAME checkDigitInGlobalRow=>boolean checkDigitInGlobalRow() METHOD
+RefactoringAction 1443780254212 SudokuVerifier.java RENAME checkDigitInGlobalRow()=>boolean checkDigitInGlobalRow(String) METHOD
+EditAction 1443780281643 TestSudokuVerifier.java 1028 5 8 5
