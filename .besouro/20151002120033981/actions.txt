@@ -11,3 +11,5 @@ RefactoringAction 1443776925993 TestSudokuVerifier.java ADD void initialize() ME
 RefactoringAction 1443776939065 TestSudokuVerifier.java RENAME empty=>String candidateSolution FIELD
 RefactoringAction 1443776956826 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
 EditAction 1443777047417 TestSudokuVerifier.java 474 2 3 1
+RefactoringAction 1443777146031 TestSudokuVerifier.java ADD void checkIfSudokuIsValid() METHOD
+EditAction 1443777175309 TestSudokuVerifier.java 663 3 5 2

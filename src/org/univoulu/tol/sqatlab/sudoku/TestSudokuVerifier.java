@@ -14,6 +14,15 @@ public class TestSudokuVerifier {
     	candidateSolution= "";
     }
 	
+    @Test
+    public void checkIfSudokuIsValid(){
+    	SudokuVerifier sv = new SudokuVerifier();
+		// Act
+		
+		//Assert
+		assertEquals(0, sv.verify(candidateSolution));
+    }
+    
 	@Test
 	public void checkFirstRule() {
 		//Arrange
