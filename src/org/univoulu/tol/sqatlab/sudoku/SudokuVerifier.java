@@ -10,6 +10,9 @@ public class SudokuVerifier {
 			if(!verifyPositveDigits(candidateSolution)){
 				return -1;
 			}
+			if(!checkDigitInGlobalRow(candidateSolution)){
+				return -3;
+			}
 		}
 		
 		return 0;
