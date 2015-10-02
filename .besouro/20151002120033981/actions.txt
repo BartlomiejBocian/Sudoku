@@ -73,3 +73,4 @@ EditAction 1443779122190 TestSudokuVerifier.java 672 3 4 2
 RefactoringAction 1443779133216 TestSudokuVerifier.java ADD String valid FIELD
 RefactoringAction 1443779135227 TestSudokuVerifier.java RENAME valid=>String validString FIELD
 EditAction 1443779178376 TestSudokuVerifier.java 800 3 5 2
+EditAction 1443779319085 SudokuVerifier.java 560 3 4 0

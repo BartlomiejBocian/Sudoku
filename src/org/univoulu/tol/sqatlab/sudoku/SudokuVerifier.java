@@ -8,6 +8,7 @@ public class SudokuVerifier {
 				return -1;
 			}
 		}
+		
 		return 0;
 	}
 	
