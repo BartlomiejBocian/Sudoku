@@ -3,19 +3,23 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
-		// returns 1 if the candidate solution is correct
+		if(validateStringLenght(candidateSolution)){
+			if(!verifyPositveDigits(candidateSolution)){
+				return -1;
+			}
+		}
 		return 0;
 	}
 	
-	public int verifyPositveDigits(String string){
+	private boolean verifyPositveDigits(String string){
 		if (string.matches("[1-9.]+")){
-			return 1;
+			return true;
 		}else{
-			return -1;
+			return false;
 		}
 	}
 	
-	public boolean validateStringLenght(String string){
+	private boolean validateStringLenght(String string){
 		if(string.length() == 81)
 			return true;
 		else {

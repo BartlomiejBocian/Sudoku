@@ -57,3 +57,4 @@ UnitTestSessionAction 1443778404397 TestSudokuVerifier FAIL
 RefactoringAction 1443778653385 TestSudokuVerifier.java REMOVE testVerifyPositveDigits() METHOD
 RefactoringAction 1443778663916 TestSudokuVerifier.java REMOVE testLenghtMethod() METHOD
 EditAction 1443778690407 TestSudokuVerifier.java 688 3 4 2
+EditAction 1443778693986 SudokuVerifier.java 556 3 4 0
