@@ -1,0 +1,13 @@
+FileOpenedAction 1443776434420 SudokuVerifier.java 198 1 1 0
+FileOpenedAction 1443776443629 TestSudokuVerifier.java 216 1 1 0
+RefactoringAction 1443776482363 TestSudokuVerifier.java RENAME test()=>void te() METHOD
+RefactoringAction 1443776485374 TestSudokuVerifier.java RENAME te()=>void check() METHOD
+RefactoringAction 1443776488388 TestSudokuVerifier.java RENAME check()=>void checkF() METHOD
+RefactoringAction 1443776489897 TestSudokuVerifier.java RENAME checkF()=>void checkFirst() METHOD
+RefactoringAction 1443776491424 TestSudokuVerifier.java RENAME checkFirst()=>void checkFirstRu() METHOD
+RefactoringAction 1443776492441 TestSudokuVerifier.java RENAME checkFirstRu()=>void checkFirstRule() METHOD
+RefactoringAction 1443776925992 TestSudokuVerifier.java ADD List empty FIELD
+RefactoringAction 1443776925993 TestSudokuVerifier.java ADD void initialize() METHOD
+RefactoringAction 1443776939065 TestSudokuVerifier.java RENAME empty=>String candidateSolution FIELD
+RefactoringAction 1443776956826 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
+EditAction 1443777047417 TestSudokuVerifier.java 474 2 3 1
