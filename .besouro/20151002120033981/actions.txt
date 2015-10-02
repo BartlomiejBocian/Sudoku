@@ -74,3 +74,14 @@ RefactoringAction 1443779133216 TestSudokuVerifier.java ADD String valid FIELD
 RefactoringAction 1443779135227 TestSudokuVerifier.java RENAME valid=>String validString FIELD
 EditAction 1443779178376 TestSudokuVerifier.java 800 3 5 2
 EditAction 1443779319085 SudokuVerifier.java 560 3 4 0
+RefactoringAction 1443779347408 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443779350421 TestSudokuVerifier.java RENAME test=>void testRu FIELD
+RefactoringAction 1443779351435 TestSudokuVerifier.java RENAME testRu=>void testRule FIELD
+RefactoringAction 1443779355451 TestSudokuVerifier.java RENAME testRule=>void testSecou FIELD
+RefactoringAction 1443779356462 TestSudokuVerifier.java RENAME testSecou=>void testSecound FIELD
+RefactoringAction 1443779357972 TestSudokuVerifier.java RENAME testSecound=>void testSec FIELD
+RefactoringAction 1443779359484 TestSudokuVerifier.java RENAME testSec=>void testSecund FIELD
+RefactoringAction 1443779374499 TestSudokuVerifier.java RENAME testSecund=>void testSecond FIELD
+RefactoringAction 1443779377010 TestSudokuVerifier.java RENAME testSecond=>void testSecondRule FIELD
+RefactoringAction 1443779382533 TestSudokuVerifier.java RENAME testSecondRule=>void testSecondRule() METHOD
+EditAction 1443779488619 TestSudokuVerifier.java 846 4 6 3
