@@ -70,3 +70,6 @@ RefactoringAction 1443778991177 TestSudokuVerifier.java RENAME validString=>Stri
 RefactoringAction 1443778992383 TestSudokuVerifier.java RENAME invalidString=>String validString FIELD
 RefactoringAction 1443778993724 TestSudokuVerifier.java RENAME validString=>String inValidString FIELD
 EditAction 1443779122190 TestSudokuVerifier.java 672 3 4 2
+RefactoringAction 1443779133216 TestSudokuVerifier.java ADD String valid FIELD
+RefactoringAction 1443779135227 TestSudokuVerifier.java RENAME valid=>String validString FIELD
+EditAction 1443779178376 TestSudokuVerifier.java 800 3 5 2
