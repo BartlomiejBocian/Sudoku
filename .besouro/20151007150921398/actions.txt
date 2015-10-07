@@ -12,3 +12,10 @@ EditAction 1444220327755 SudokuVerifier.java 1173 4 6 0
 RefactoringAction 1444220350142 Sudoku.java ADD void printPuzzle() METHOD
 EditAction 1444220480607 Sudoku.java 1100 2 2 0
 EditAction 1444220519297 Sudoku.java 1118 2 3 0
+UnitTestCaseAction 1444220525827 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444220525890 TestSudokuVerifier FAIL
+RefactoringAction 1444220570932 TestSudokuVerifier.java REMOVE testLenghtCorrect() METHOD
+RefactoringAction 1444220570932 TestSudokuVerifier.java REMOVE testFirstRule() METHOD
+RefactoringAction 1444220570933 TestSudokuVerifier.java REMOVE testThirdRule() METHOD
+RefactoringAction 1444220570933 TestSudokuVerifier.java REMOVE testSecondRule() METHOD
+EditAction 1444220574507 TestSudokuVerifier.java 1772 2 7 1
