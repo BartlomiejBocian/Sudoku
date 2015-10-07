@@ -24,7 +24,8 @@ public class Sudoku {
           {
               myPuzzle[row][column] = incomingPuzzle.charAt(row*9+column);
           }
-      }  
+      } 
+	  printPuzzle();
   }
   
   public void printPuzzle(){
