@@ -1,9 +1,21 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
+
 public class Subgrid {
-	private int[] subGrid =  new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0};
+	private ArrayList<Integer> subGrid;
 	
-	public Subgrid(int[] grid){
+	public Subgrid(ArrayList<Integer> grid){
 		this.subGrid = grid;
 	}
+
+	public ArrayList<Integer> getSubGrid() {
+		return subGrid;
+	}
+
+	public void setSubGrid(ArrayList<Integer> subGrid) {
+		this.subGrid = subGrid;
+	}
+	
+	
 }

@@ -1,5 +1,6 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -88,6 +89,8 @@ public class Sudoku {
 	}
 	
 	public boolean checkSubGrid(){
+		ArrayList<Subgrid> subGrids = new ArrayList<>();
+		
 		return false;
 	}
 	

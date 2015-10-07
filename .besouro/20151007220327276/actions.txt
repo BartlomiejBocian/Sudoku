@@ -126,3 +126,16 @@ RefactoringAction 1444251732630 Subgrid.java RENAME Subgrid()=>Subgrid(int METHO
 RefactoringAction 1444251740134 Subgrid.java RENAME Subgrid=>int FIELD
 RefactoringAction 1444251741645 Subgrid.java RENAME subgrid=>int FIELD
 EditAction 1444251795767 Subgrid.java 197 1 1 0
+UnitTestCaseAction 1444251796853 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444251796854 TestSudokuVerifier FAIL
+RefactoringAction 1444251893889 Subgrid.java REMOVE subGrid FIELD
+RefactoringAction 1444251899393 Subgrid.java ADD import java.sql.Array IMPORT
+RefactoringAction 1444251904902 Subgrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1444251913414 Subgrid.java REMOVE import java.sql.Array IMPORT
+RefactoringAction 1444251918926 Subgrid.java ADD ArrayList<Int> subGrid FIELD
+RefactoringAction 1444251944373 Subgrid.java RENAME Subgrid(int=>Subgrid(ArrayList<Integer>) METHOD
+RefactoringAction 1444251994563 Subgrid.java ADD ArrayList<Integer> getSubGrid() METHOD
+RefactoringAction 1444251994564 Subgrid.java ADD void setSubGrid(ArrayList<Integer>) METHOD
+RefactoringAction 1444252003072 Subgrid.java REMOVE Subgrid(ArrayList<Integer>) METHOD
+RefactoringAction 1444252021596 Sudoku.java ADD import java.util.ArrayList IMPORT
+EditAction 1444252422822 Sudoku.java 2546 8 14 0
