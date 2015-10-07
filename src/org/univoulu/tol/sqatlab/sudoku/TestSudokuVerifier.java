@@ -50,7 +50,10 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void testSecondRule() {
+		//invalid
 		assertEquals(-2, sv.verify(inValidStringTest2));
+		//valid
+		assertEquals(0, sv.verify(validString));
 	}
 
 	@Test
