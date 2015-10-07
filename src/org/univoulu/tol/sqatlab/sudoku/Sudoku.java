@@ -18,14 +18,12 @@ public class Sudoku {
   };
 
   public Sudoku(String incomingPuzzle){
-	  for ( int row = 0; row <= 8; row++ )
-      {
-          for ( int column = 0; column <= 8; column++ )
-          {
-              myPuzzle[row][column] = incomingPuzzle.charAt(row*9+column);
-          }
-      } 
-	  printPuzzle();
+    for ( int row = 0; row <= 8; row++ ){
+      for ( int column = 0; column <= 8; column++ ){
+        myPuzzle[row][column] = incomingPuzzle.charAt(row*9+column);
+      }
+    } 
+	printPuzzle();
   }
   
   public void printPuzzle(){

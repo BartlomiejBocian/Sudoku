@@ -26,3 +26,4 @@ RefactoringAction 1444220590372 TestSudokuVerifier.java ADD void testFirstRule()
 RefactoringAction 1444220590372 TestSudokuVerifier.java ADD void testSecondRule() METHOD
 RefactoringAction 1444220590373 TestSudokuVerifier.java ADD void testThirdRule() METHOD
 EditAction 1444220646814 TestSudokuVerifier.java 1714 6 14 8
+EditAction 1444220647046 Sudoku.java 1081 2 3 0
