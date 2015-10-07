@@ -1,0 +1,10 @@
+FileOpenedAction 1444219762080 SudokuVerifier.java 1101 4 6 0
+RefactoringAction 1444219789924 Sudoku.java ADD Sudoku.java CLASS
+FileOpenedAction 1444219790426 Sudoku.java 72 0 0 0
+RefactoringAction 1444219806058 Sudoku.java ADD void S FIELD
+RefactoringAction 1444219807570 Sudoku.java RENAME S=>void Sudoku FIELD
+RefactoringAction 1444219808581 Sudoku.java RENAME Sudoku=>void Sudoku() METHOD
+RefactoringAction 1444219866403 Sudoku.java RENAME Sudoku()=>byte FIELD
+RefactoringAction 1444220035809 Sudoku.java ADD import java.util.HashMap IMPORT
+RefactoringAction 1444220270822 SudokuVerifier.java ADD Sudoku sudoku FIELD
+EditAction 1444220326324 Sudoku.java 723 1 1 0
