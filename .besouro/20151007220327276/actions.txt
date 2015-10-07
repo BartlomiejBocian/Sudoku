@@ -35,3 +35,10 @@ EditAction 1444246551707 TestSudokuVerifier.java 2021 7 17 10
 EditAction 1444246553888 SudokuVerifier.java 1017 3 5 0
 RefactoringAction 1444246618498 Sudoku.java ADD String proposalString FIELD
 EditAction 1444246661344 Sudoku.java 1561 3 6 0
+RefactoringAction 1444246673049 SudokuVerifier.java REMOVE validateStringLenght(String) METHOD
+RefactoringAction 1444246674560 SudokuVerifier.java ADD boolean validateStringLenght(String) METHOD
+RefactoringAction 1444246675598 SudokuVerifier.java REMOVE validateStringLenght(String) METHOD
+RefactoringAction 1444246682256 Sudoku.java ADD boolean validateStringLenght(String) METHOD
+RefactoringAction 1444246701279 Sudoku.java RENAME validateStringLenght(String)=>boolean validateStringLenght() METHOD
+RefactoringAction 1444246712299 Sudoku.java RENAME proposalString=>String puzzleString FIELD
+EditAction 1444246779678 SudokuVerifier.java 1020 2 5 0

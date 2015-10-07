@@ -2,7 +2,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 public class Sudoku {
 	
-  private String proposalString;
+  private String puzzleString;
 	
   private int[][] myPuzzle = new int[][]{
 		
@@ -20,13 +20,21 @@ public class Sudoku {
   };
 
   public Sudoku(String incomingPuzzle){
-	  proposalString = incomingPuzzle;
+	  puzzleString = incomingPuzzle;
     for(int row = 0; row <= 8; row++){
       for(int column = 0; column <= 8; column++){
     	  char digits = incomingPuzzle.charAt(row*9+column);
         myPuzzle[row][column] = Character.getNumericValue(digits);
       }
     } 
+  }
+  
+  public boolean validateStringLenght(){
+		if(puzzleString.length() == 81)
+			return true;
+		else {
+			return false;
+		}
   }
   
   public boolean verifyPositveDigits(){
@@ -43,7 +51,7 @@ public class Sudoku {
 	return positveDigits;
   }
   
-  public void printPuzzle(){
+  private void printPuzzle(){
     for(char y = 0; y <=8; y++){
       for(char x = 0; x <=8; x++){
         System.out.print(myPuzzle[y][x] + " ");

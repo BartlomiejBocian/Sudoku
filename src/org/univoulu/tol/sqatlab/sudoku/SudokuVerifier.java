@@ -8,8 +8,8 @@ public class SudokuVerifier {
 	private Sudoku sudoku;
 	
 	public int verify(String candidateSolution) {
-		if(validateStringLenght(candidateSolution)){
-			sudoku = new Sudoku(candidateSolution);
+		sudoku = new Sudoku(candidateSolution);
+		if(sudoku.validateStringLenght()){
 			if(!sudoku.verifyPositveDigits()){
 				return -1;
 			}
@@ -22,13 +22,13 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	private boolean validateStringLenght(String string){
-		if(string.length() == 81)
-			return true;
-		else {
-			return false;
-		}
-	}
+//	private boolean validateStringLenght(String string){
+//		if(string.length() == 81)
+//			return true;
+//		else {
+//			return false;
+//		}
+//	}
 	
 	private boolean checkDigitInGlobalRow(String string){
 		for (String strTmp : string.split("(?<=\\G.{9})")) {
