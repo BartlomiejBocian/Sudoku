@@ -6,7 +6,8 @@ import java.util.Map;
 public class Sudoku {
 
 	private String puzzleString;
-
+	private char c;
+	
 	private int[][] myPuzzle = new int[][]{
 
 		{ 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -59,12 +60,12 @@ public class Sudoku {
 
 	public boolean checkDigitInGlobalRow(){
 		for(int row = 0; row <= 8; row++){
-			Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+			Map<Character,Integer> map = new HashMap<Character,Integer>();
 			for(int column = 0; column <= 8; column++){
 				if (map.containsKey(myPuzzle[row][column])) {
 					return false;
 				} else {
-					map.put(myPuzzle[row][column], 1);
+					map.put(c,myPuzzle[row][column]);
 				}
 			}
 		} 
@@ -73,12 +74,12 @@ public class Sudoku {
 
 	public boolean checkDigitInGlobalColumn(){
 		for(int column = 0; column <= 8; column++){
-			Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+			Map<Character,Integer> map = new HashMap<Character,Integer>();
 			for(int row = 0; row <= 8; row++){
-				if (map.containsKey(myPuzzle[row][column])) {
+				if (map.containsValue(myPuzzle[row][column])) {
 					return false;
 				} else {
-					map.put(myPuzzle[row][column], 1);
+					map.put(c,myPuzzle[row][column]);
 				}
 			}
 		} 
