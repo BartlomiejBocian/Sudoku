@@ -1,5 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Sudoku {
 
 	private String puzzleString;
@@ -52,6 +55,20 @@ public class Sudoku {
 			}
 		} 
 		return positveDigits;
+	}
+
+	public boolean checkDigitInGlobalRow(){
+		for(int row = 0; row <= 8; row++){
+			Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+			for(int column = 0; column <= 8; column++){
+				if (map.containsKey(myPuzzle[row][column])) {
+					return false;
+				} else {
+					map.put(myPuzzle[row][column], 1);
+				}
+			}
+		} 
+		return true;
 	}
 
 	private void printPuzzle(){
