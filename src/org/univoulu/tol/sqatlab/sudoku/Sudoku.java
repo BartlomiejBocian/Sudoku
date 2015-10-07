@@ -71,6 +71,20 @@ public class Sudoku {
 		return true;
 	}
 
+	public boolean checkDigitInGlobalColumn(){
+		for(int column = 0; column <= 8; column++){
+			Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+			for(int row = 0; row <= 8; column = column + 9){
+				if (map.containsKey(myPuzzle[row][column])) {
+					return false;
+				} else {
+					map.put(myPuzzle[row][column], 1);
+				}
+			}
+		} 
+		return true;
+	}
+	
 	private void printPuzzle(){
 		for(char y = 0; y <=8; y++){
 			for(char x = 0; x <=8; x++){

@@ -17,24 +17,12 @@ public class SudokuVerifier {
 			if(!sudoku.checkDigitInGlobalRow()){
 				return -3;
 			}
+			if(!sudoku.checkDigitInGlobalColumn()){
+				return -4;
+			}
 		}else
 			return 1;
 
 		return 0;
 	}
-
-//	private boolean checkDigitInGlobalRow(String string){
-//		for (String strTmp : string.split("(?<=\\G.{9})")) {
-//			Map<Character,Integer> map = new HashMap<Character,Integer>();
-//			for (int i = 0; i < strTmp.length(); i++) {
-//				char c = strTmp.charAt(i);
-//				if (map.containsKey(c)) {
-//					return false;
-//				} else {
-//					map.put(c, 1);
-//				}
-//			}
-//		}
-//		return true;
-//	}
 }
