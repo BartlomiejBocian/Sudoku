@@ -139,3 +139,4 @@ RefactoringAction 1444251994564 Subgrid.java ADD void setSubGrid(ArrayList<Integ
 RefactoringAction 1444252003072 Subgrid.java REMOVE Subgrid(ArrayList<Integer>) METHOD
 RefactoringAction 1444252021596 Sudoku.java ADD import java.util.ArrayList IMPORT
 EditAction 1444252422822 Sudoku.java 2546 8 14 0
+EditAction 1444252423057 Subgrid.java 300 2 2 0
