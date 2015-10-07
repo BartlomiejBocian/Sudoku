@@ -10,7 +10,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		if(validateStringLenght(candidateSolution)){
 			sudoku = new Sudoku(candidateSolution);
-			if(sudoku.verifyPositveDigits()){
+			if(!sudoku.verifyPositveDigits()){
 				return -1;
 			}
 			if(!checkDigitInGlobalRow(candidateSolution)){
