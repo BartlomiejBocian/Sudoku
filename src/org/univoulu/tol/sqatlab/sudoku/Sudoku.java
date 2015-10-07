@@ -18,17 +18,27 @@ public class Sudoku {
   };
 
   public Sudoku(String incomingPuzzle){
-    for ( int row = 0; row <= 8; row++ ){
-      for ( int column = 0; column <= 8; column++ ){
+    for(int row = 0; row <= 8; row++){
+      for(int column = 0; column <= 8; column++){
         myPuzzle[row][column] = incomingPuzzle.charAt(row*9+column);
       }
     } 
-	printPuzzle();
+  }
+  
+  private boolean verifyPositveDigits(){
+	  for(int row = 0; row <= 8; row++){
+	      for(int column = 0; column <= 8; column++){
+	        if ( myPuzzle[row][column] >= 1 && myPuzzle[row][column] <= 9){
+	        	return true;
+	        }
+	      }
+	    } 
+	return false;
   }
   
   public void printPuzzle(){
-    for ( char y = 0; y <=8; y++ ){
-      for ( char x = 0; x <=8; x++ ){
+    for(char y = 0; y <=8; y++){
+      for(char x = 0; x <=8; x++){
         System.out.print(myPuzzle[y][x] + " ");
           if ( x == 2 || x == 5 ){
             System.out.print("  ");
