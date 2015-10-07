@@ -4,3 +4,6 @@ RefactoringAction 1444244716325 Sudoku.java RENAME verifyPositveDigits(String)=>
 EditAction 1444245137356 Sudoku.java 1339 3 4 0
 RefactoringAction 1444245142905 SudokuVerifier.java REMOVE verifyPositveDigits(String) METHOD
 EditAction 1444245183371 SudokuVerifier.java 1177 3 5 0
+UnitTestCaseAction 1444245185944 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444245185952 TestSudokuVerifier FAIL
+EditAction 1444245532828 Sudoku.java 1393 3 4 0
