@@ -32,6 +32,8 @@ public class Sudoku {
 	      for(int column = 0; column <= 8; column++){
 	        if ( myPuzzle[row][column] >= 1 && myPuzzle[row][column] <= 9){
 	        	positveDigits = true;
+	        }else{
+	        	return false;
 	        }
 	      }
 	    } 
