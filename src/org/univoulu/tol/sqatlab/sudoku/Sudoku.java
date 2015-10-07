@@ -27,14 +27,17 @@ public class Sudoku {
   }
   
   public boolean verifyPositveDigits(){
+	  boolean positveDigits = false;
 	  for(int row = 0; row <= 8; row++){
 	      for(int column = 0; column <= 8; column++){
 	        if ( myPuzzle[row][column] >= 1 && myPuzzle[row][column] <= 9){
-	        	return true;
+	        	positveDigits = true;
+	        }else{
+	        	positveDigits = false;
 	        }
 	      }
 	    } 
-	return false;
+	return positveDigits;
   }
   
   public void printPuzzle(){
