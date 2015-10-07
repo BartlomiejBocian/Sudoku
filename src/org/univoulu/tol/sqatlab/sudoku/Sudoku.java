@@ -73,13 +73,13 @@ public class Sudoku {
 	}
 
 	public boolean checkDigitInGlobalColumn(){
-		for(int row = 0; row <= 8; row++){
+		for(int column = 0; column <= 8; column++){
 			Map<Character,Integer> map = new HashMap<Character,Integer>();
-			for(int column = 0; column <= 8; column++){
-				if (map.containsValue(myPuzzle[column][row])) {
+			for(int row = 0; row <= 8; row++){
+				if (map.containsValue(myPuzzle[row][column])) {
 					return false;
 				} else {
-					map.put(c,myPuzzle[column][row]);
+					map.put(c,myPuzzle[row][column]);
 				}
 			}
 		} 
