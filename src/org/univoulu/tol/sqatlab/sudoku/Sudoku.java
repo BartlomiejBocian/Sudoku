@@ -20,13 +20,17 @@ public class Sudoku {
   };
 
   public Sudoku(String incomingPuzzle){
-	  puzzleString = incomingPuzzle;
-    for(int row = 0; row <= 8; row++){
-      for(int column = 0; column <= 8; column++){
-    	  char digits = incomingPuzzle.charAt(row*9+column);
-        myPuzzle[row][column] = Character.getNumericValue(digits);
-      }
-    } 
+	puzzleString = incomingPuzzle;
+    
+  }
+  
+  public void createPuzzle(){
+	  for(int row = 0; row <= 8; row++){
+	      for(int column = 0; column <= 8; column++){
+	    	  char digits = puzzleString.charAt(row*9+column);
+	        myPuzzle[row][column] = Character.getNumericValue(digits);
+	      }
+	    } 
   }
   
   public boolean validateStringLenght(){
