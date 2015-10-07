@@ -74,7 +74,7 @@ public class Sudoku {
 	public boolean checkDigitInGlobalColumn(){
 		for(int column = 0; column <= 8; column++){
 			Map<Integer,Integer> map = new HashMap<Integer,Integer>();
-			for(int row = 0; row <= 72; row = row + 8){
+			for(int row = 0; row <= 8; row++){
 				if (map.containsKey(myPuzzle[row][column])) {
 					return false;
 				} else {
