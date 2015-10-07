@@ -26,4 +26,19 @@ public class Sudoku {
           }
       }  
   }
+  
+  public void printPuzzle(){
+    for ( char y = 0; y <=8; y++ ){
+      for ( char x = 0; x <=8; x++ ){
+        System.out.print(myPuzzle[y][x] + " ");
+          if ( x == 2 || x == 5 ){
+            System.out.print("  ");
+          }
+      }
+      System.out.println();
+      if ( y == 2 || y == 5 || y == 8 ){
+        System.out.println();
+      }
+    }
+  }
 }

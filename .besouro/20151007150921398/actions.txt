@@ -9,3 +9,5 @@ RefactoringAction 1444220035809 Sudoku.java ADD import java.util.HashMap IMPORT
 RefactoringAction 1444220270822 SudokuVerifier.java ADD Sudoku sudoku FIELD
 EditAction 1444220326324 Sudoku.java 723 1 1 0
 EditAction 1444220327755 SudokuVerifier.java 1173 4 6 0
+RefactoringAction 1444220350142 Sudoku.java ADD void printPuzzle() METHOD
+EditAction 1444220480607 Sudoku.java 1100 2 2 0
