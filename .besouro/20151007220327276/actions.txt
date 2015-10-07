@@ -114,3 +114,4 @@ RefactoringAction 1444250509513 Sudoku.java ADD boolean check FIELD
 RefactoringAction 1444250513021 Sudoku.java RENAME check=>boolean checkSubGrid FIELD
 RefactoringAction 1444250514030 Sudoku.java RENAME checkSubGrid=>boolean checkSubGrid() METHOD
 EditAction 1444250568439 SudokuVerifier.java 549 1 3 0
+EditAction 1444250568578 TestSudokuVerifier.java 2014 7 17 10
