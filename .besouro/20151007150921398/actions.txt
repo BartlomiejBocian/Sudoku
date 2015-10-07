@@ -19,3 +19,10 @@ RefactoringAction 1444220570932 TestSudokuVerifier.java REMOVE testFirstRule() M
 RefactoringAction 1444220570933 TestSudokuVerifier.java REMOVE testThirdRule() METHOD
 RefactoringAction 1444220570933 TestSudokuVerifier.java REMOVE testSecondRule() METHOD
 EditAction 1444220574507 TestSudokuVerifier.java 1772 2 7 1
+UnitTestCaseAction 1444220575569 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444220575573 TestSudokuVerifier OK
+RefactoringAction 1444220590371 TestSudokuVerifier.java ADD void testLenghtCorrect() METHOD
+RefactoringAction 1444220590372 TestSudokuVerifier.java ADD void testFirstRule() METHOD
+RefactoringAction 1444220590372 TestSudokuVerifier.java ADD void testSecondRule() METHOD
+RefactoringAction 1444220590373 TestSudokuVerifier.java ADD void testThirdRule() METHOD
+EditAction 1444220646814 TestSudokuVerifier.java 1714 6 14 8
