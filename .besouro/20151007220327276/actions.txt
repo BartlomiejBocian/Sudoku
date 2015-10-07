@@ -140,3 +140,9 @@ RefactoringAction 1444252003072 Subgrid.java REMOVE Subgrid(ArrayList<Integer>) 
 RefactoringAction 1444252021596 Sudoku.java ADD import java.util.ArrayList IMPORT
 EditAction 1444252422822 Sudoku.java 2546 8 14 0
 EditAction 1444252423057 Subgrid.java 300 2 2 0
+UnitTestCaseAction 1444252423792 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444252423793 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444252433908 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444252433908 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444252451460 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444252451460 TestSudokuVerifier FAIL

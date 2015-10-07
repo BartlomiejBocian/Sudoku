@@ -35,7 +35,6 @@ public class Sudoku {
 				myPuzzle[row][column] = Character.getNumericValue(digits);
 			}
 		}
-		printPuzzle();
 	}
 
 	public boolean validateStringLenght(){
@@ -91,7 +90,7 @@ public class Sudoku {
 	public boolean checkSubGrid(){
 		ArrayList<Subgrid> subGrids = new ArrayList<>();
 		
-		return false;
+		return true;
 	}
 	
 	private void printPuzzle(){
