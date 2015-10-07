@@ -82,3 +82,8 @@ RefactoringAction 1444249240933 Sudoku.java ADD char c FIELD
 UnitTestCaseAction 1444249253939 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444249253940 TestSudokuVerifier FAIL
 EditAction 1444249279793 TestSudokuVerifier.java 2021 7 17 10
+UnitTestCaseAction 1444249280566 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444249280573 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444249314519 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444249314520 TestSudokuVerifier FAIL
+EditAction 1444249343294 TestSudokuVerifier.java 2021 7 17 10

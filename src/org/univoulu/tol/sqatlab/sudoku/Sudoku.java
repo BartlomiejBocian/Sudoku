@@ -62,7 +62,7 @@ public class Sudoku {
 		for(int row = 0; row <= 8; row++){
 			Map<Character,Integer> map = new HashMap<Character,Integer>();
 			for(int column = 0; column <= 8; column++){
-				if (map.containsKey(myPuzzle[row][column])) {
+				if (map.containsValue(myPuzzle[row][column])) {
 					return false;
 				} else {
 					map.put(c,myPuzzle[row][column]);
