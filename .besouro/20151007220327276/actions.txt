@@ -2,3 +2,5 @@ FileOpenedAction 1444244608136 SudokuVerifier.java 1173 4 6 0
 RefactoringAction 1444244626401 Sudoku.java ADD boolean verifyPositveDigits(String) METHOD
 RefactoringAction 1444244716325 Sudoku.java RENAME verifyPositveDigits(String)=>boolean verifyPositveDigits() METHOD
 EditAction 1444245137356 Sudoku.java 1339 3 4 0
+RefactoringAction 1444245142905 SudokuVerifier.java REMOVE verifyPositveDigits(String) METHOD
+EditAction 1444245183371 SudokuVerifier.java 1177 3 5 0
