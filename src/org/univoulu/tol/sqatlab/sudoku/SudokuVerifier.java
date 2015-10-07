@@ -1,8 +1,5 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class SudokuVerifier {
 
 	private Sudoku sudoku;
@@ -13,6 +10,9 @@ public class SudokuVerifier {
 			sudoku.createPuzzle();
 			if(!sudoku.verifyPositveDigits()){
 				return -1;
+			}
+			if(!sudoku.checkSubGrid()){
+				return -2;
 			}
 			if(!sudoku.checkDigitInGlobalRow()){
 				return -3;
