@@ -33,7 +33,8 @@ public class Sudoku {
 				char digits = puzzleString.charAt(row*9+column);
 				myPuzzle[row][column] = Character.getNumericValue(digits);
 			}
-		} 
+		}
+		printPuzzle();
 	}
 
 	public boolean validateStringLenght(){
@@ -91,8 +92,8 @@ public class Sudoku {
 	}
 	
 	private void printPuzzle(){
-		for(char y = 0; y <=8; y++){
-			for(char x = 0; x <=8; x++){
+		for(int y = 0; y <=8; y++){
+			for(int x = 0; x <=8; x++){
 				System.out.print(myPuzzle[y][x] + " ");
 				if ( x == 2 || x == 5 ){
 					System.out.print("  ");
