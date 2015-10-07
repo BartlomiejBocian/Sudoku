@@ -5,8 +5,11 @@ import java.util.Map;
 
 public class SudokuVerifier {
 
+	private Sudoku sudoku;
+	
 	public int verify(String candidateSolution) {
 		if(validateStringLenght(candidateSolution)){
+			sudoku = new Sudoku(candidateSolution);
 			if(!verifyPositveDigits(candidateSolution)){
 				return -1;
 			}

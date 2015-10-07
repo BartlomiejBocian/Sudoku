@@ -8,3 +8,4 @@ RefactoringAction 1444219866403 Sudoku.java RENAME Sudoku()=>byte FIELD
 RefactoringAction 1444220035809 Sudoku.java ADD import java.util.HashMap IMPORT
 RefactoringAction 1444220270822 SudokuVerifier.java ADD Sudoku sudoku FIELD
 EditAction 1444220326324 Sudoku.java 723 1 1 0
+EditAction 1444220327755 SudokuVerifier.java 1173 4 6 0
