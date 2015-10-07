@@ -37,6 +37,7 @@ public class Sudoku {
 	        }
 	      }
 	    } 
+	  System.out.println(positveDigits);
 	return positveDigits;
   }
   
