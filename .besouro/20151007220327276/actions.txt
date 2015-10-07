@@ -48,3 +48,6 @@ RefactoringAction 1444246934714 Sudoku.java ADD void create FIELD
 RefactoringAction 1444246940722 Sudoku.java RENAME create=>void createPuzzle FIELD
 RefactoringAction 1444246941734 Sudoku.java RENAME createPuzzle=>void createPuzzle() METHOD
 EditAction 1444246999683 SudokuVerifier.java 1047 2 5 0
+UnitTestCaseAction 1444247000547 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444247000549 TestSudokuVerifier FAIL
+EditAction 1444247087873 SudokuVerifier.java 876 2 5 0
