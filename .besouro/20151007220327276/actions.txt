@@ -23,3 +23,12 @@ EditAction 1444246128470 Sudoku.java 1445 3 5 0
 UnitTestCaseAction 1444246129259 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444246129260 TestSudokuVerifier FAIL
 EditAction 1444246231312 Sudoku.java 1487 3 5 0
+UnitTestCaseAction 1444246232027 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444246232028 TestSudokuVerifier FAIL
+RefactoringAction 1444246381375 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444246406897 TestSudokuVerifier.java RENAME test=>void testfourth FIELD
+RefactoringAction 1444246410910 TestSudokuVerifier.java RENAME testfourth=>void testFourth FIELD
+RefactoringAction 1444246415938 TestSudokuVerifier.java RENAME testFourth=>void testFourthRule() METHOD
+RefactoringAction 1444246541976 TestSudokuVerifier.java ADD String inValidStringTest3/2 FIELD
+RefactoringAction 1444246543489 TestSudokuVerifier.java RENAME inValidStringTest3/2=>String inValidStringTest4 FIELD
+EditAction 1444246551707 TestSudokuVerifier.java 2021 7 17 10

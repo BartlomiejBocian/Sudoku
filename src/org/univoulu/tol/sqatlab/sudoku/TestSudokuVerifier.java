@@ -11,6 +11,7 @@ public class TestSudokuVerifier {
 	String inValidStringTest1;
 	String inValidStringTest2;
 	String inValidStringTest3;
+	String inValidStringTest4;
 
 	String validString;
 	SudokuVerifier sv;
@@ -23,7 +24,7 @@ public class TestSudokuVerifier {
     	inValidStringTest1 = "003456789912345678891234567789123456678912345567891234456789123345678912234567891";
     	inValidStringTest2 = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
     	inValidStringTest3 = "113456789912345678891234567789123456678912345567891234456789123345678912234567891";
-
+    	inValidStringTest4 = "417369825432158947958724316825437169791586432346912758289643571573291684164875293";
     }
     
     @Test
@@ -56,6 +57,14 @@ public class TestSudokuVerifier {
 	public void testThirdRule() {
 		//invalid
 		assertEquals(-3, sv.verify(inValidStringTest3));
+		//valid
+		assertEquals(0, sv.verify(validString));
+	}
+	
+	@Test
+	public void testFourthRule() {
+		//invalid
+		assertEquals(-4, sv.verify(inValidStringTest4));
 		//valid
 		assertEquals(0, sv.verify(validString));
 	}
