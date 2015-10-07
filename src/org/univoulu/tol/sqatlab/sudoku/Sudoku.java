@@ -2,6 +2,8 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 public class Sudoku {
 	
+  private String proposalString;
+	
   private int[][] myPuzzle = new int[][]{
 		
     { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -18,6 +20,7 @@ public class Sudoku {
   };
 
   public Sudoku(String incomingPuzzle){
+	  proposalString = incomingPuzzle;
     for(int row = 0; row <= 8; row++){
       for(int column = 0; column <= 8; column++){
     	  char digits = incomingPuzzle.charAt(row*9+column);

@@ -33,3 +33,5 @@ RefactoringAction 1444246541976 TestSudokuVerifier.java ADD String inValidString
 RefactoringAction 1444246543489 TestSudokuVerifier.java RENAME inValidStringTest3/2=>String inValidStringTest4 FIELD
 EditAction 1444246551707 TestSudokuVerifier.java 2021 7 17 10
 EditAction 1444246553888 SudokuVerifier.java 1017 3 5 0
+RefactoringAction 1444246618498 Sudoku.java ADD String proposalString FIELD
+EditAction 1444246661344 Sudoku.java 1561 3 6 0
