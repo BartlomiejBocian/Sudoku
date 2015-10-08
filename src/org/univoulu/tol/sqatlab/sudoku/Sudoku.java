@@ -91,11 +91,11 @@ public class Sudoku {
 		for(int column = 0; column <= 8; column++){
 			for(int row = 0; row <= 8; row++){
 				if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
-					return true;
+					return false;
 				}
 			} 
 		}
-		return false;
+		return true;
 	}
 
 	private boolean checkNumberInGrid(int num, int row, int col){
@@ -103,10 +103,10 @@ public class Sudoku {
 		int c = (col /3) * 3;
 		for (int i = 0; i < 9; i++){
 			if(getCell(r + (i % 3), c+(i / 3)) == num){
-				return false;
+				return true;
 			}
 		}
-		return true;
+		return false;
 	}
 
 	private int getCell(int row, int column){
