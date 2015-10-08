@@ -1,6 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -88,32 +89,21 @@ public class Sudoku {
 	}
 
 	public boolean checkSubGrid(){
-		for(int row = 0; row <= 8; row++){
-			for(int column = 0; column <= 8; column++){
-//				for (int i = 1; i <= 9; i++) {
-					if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
-						return true;
-					} else return false;
-//				}
-			} 
-		}
-		return false;
-	}
-
-	private boolean checkNumberInGrid(int num, int row, int col){
-		int r = (row / 3) * 3;
-		int c = (col /3) * 3;
-		for (int i = 0; i <= 8; i++){
-//			System.out.println(getCell(r + (i % 3), c+(i / 3)));
-			if(myPuzzle[r + (i % 3)][c + (i / 3)] == num){
-				return false;
+		for (int rowOffset = 0; rowOffset < 9; rowOffset += 3) {
+			for (int columnOffset = 0; columnOffset < 9; columnOffset += 3) {
+				BitSet threeByThree = new BitSet(9);
+				for (int i = rowOffset; i < rowOffset + 3; i++) {
+					for (int j = columnOffset; j < columnOffset + 3; j++) {
+						if (myPuzzle[i][j] == 0) continue;
+						if (threeByThree.get(myPuzzle[i][j] - 1))
+							return false;
+						else
+							threeByThree.set(myPuzzle[i][j] - 1);
+					}
+				}  
 			}
 		}
 		return true;
-	}
-
-	private int getCell(int row, int column){
-		return myPuzzle[row][column];
 	}
 
 	private void printPuzzle(){
