@@ -11,7 +11,7 @@ public class SudokuVerifier {
 			if(!sudoku.verifyPositveDigits()){
 				return -1;
 			}
-			if(sudoku.checkSubGrid()){
+			if(!sudoku.checkSubGrid()){
 				return -2;
 			}
 			if(!sudoku.checkDigitInGlobalRow()){
