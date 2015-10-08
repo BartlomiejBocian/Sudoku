@@ -90,23 +90,27 @@ public class Sudoku {
 	public boolean checkSubGrid(){
 		for(int row = 0; row <= 8; row++){
 			for(int column = 0; column <= 8; column++){
-				if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
-					return false;
+				for (int i = 1; i <= 9; i++) {
+					if (checkNumberInGrid(i, row, column)) {
+						return true;
+					}
 				}
 			} 
 		}
-		return true;
+		return false;
 	}
 
 	private boolean checkNumberInGrid(int num, int row, int col){
 		int r = (row / 3) * 3;
 		int c = (col /3) * 3;
 		for (int i = 0; i <= 8; i++){
+			System.out.println(getCell(r + (i % 3), c+(i / 3)));
 			if(getCell(r + (i % 3), c+(i / 3)) == num){
-				return true;
+//				System.out.println("DUPA");
+				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 
 	private int getCell(int row, int column){
