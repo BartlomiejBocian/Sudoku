@@ -1,17 +1,12 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.ArrayList;
 import java.util.BitSet;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class Sudoku {
 
 	private String puzzleString;
-	private char c;
-
 	private int[][] myPuzzle = new int[][]{
 
 		{ 0, 0, 0, 0, 0, 0, 0, 0, 0 },
