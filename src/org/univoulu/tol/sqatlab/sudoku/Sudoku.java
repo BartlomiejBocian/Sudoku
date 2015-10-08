@@ -8,7 +8,7 @@ public class Sudoku {
 
 	private String puzzleString;
 	private char c;
-	
+
 	private int[][] myPuzzle = new int[][]{
 
 		{ 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -86,13 +86,34 @@ public class Sudoku {
 		} 
 		return true;
 	}
-	
+
 	public boolean checkSubGrid(){
-		ArrayList<Subgrid> subGrids = new ArrayList<>();
-		
+		for(int column = 0; column <= 8; column++){
+			for(int row = 0; row <= 8; row++){
+				if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
+					return true;
+				}
+			} 
+		}
+
+		return false;
+	}
+
+	private boolean checkNumberInGrid(int num, int row, int col){
+		int r = (row / 3) * 3;
+		int c = (col /3) * 3;
+		for (int i = 0; i < 9; i++){
+			if(getCell(r + (i % 3), c+(i / 3)) == num){
+				return false;
+			}
+		}
 		return true;
 	}
-	
+
+	private int getCell(int row, int column){
+		return myPuzzle[row][column];
+	}
+
 	private void printPuzzle(){
 		for(int y = 0; y <=8; y++){
 			for(int x = 0; x <=8; x++){

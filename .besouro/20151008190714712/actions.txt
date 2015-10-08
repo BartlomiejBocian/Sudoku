@@ -1,0 +1,25 @@
+FileOpenedAction 1444320435338 Sudoku.java 2527 8 13 0
+FileOpenedAction 1444320438496 Subgrid.java 300 2 2 0
+RefactoringAction 1444320470855 Subgrid.java REMOVE Subgrid.java CLASS
+RefactoringAction 1444320476239 SudokuBoard.java REMOVE getSubGrid() METHOD
+RefactoringAction 1444320476240 SudokuBoard.java REMOVE setSubGrid(ArrayList<Integer>) METHOD
+RefactoringAction 1444320476242 SudokuBoard.java REMOVE subGrid FIELD
+RefactoringAction 1444320570032 Sudoku.java ADD int get FIELD
+RefactoringAction 1444320571562 Sudoku.java RENAME get=>int getCel FIELD
+RefactoringAction 1444320573631 Sudoku.java RENAME getCel=>int getCell FIELD
+RefactoringAction 1444320577663 Sudoku.java RENAME getCell=>int getCell() METHOD
+RefactoringAction 1444320592312 Sudoku.java RENAME getCell()=>int getCell(int) METHOD
+RefactoringAction 1444320596402 Sudoku.java RENAME getCell(int)=>int getCell(int, int) METHOD
+FileOpenedAction 1444320714541 SudokuVerifier.java 549 1 3 0
+RefactoringAction 1444320739165 Sudoku.java ADD boolean check FIELD
+RefactoringAction 1444320743190 Sudoku.java RENAME check=>boolean checkG FIELD
+RefactoringAction 1444320744728 Sudoku.java RENAME checkG=>boolean checkGrid FIELD
+RefactoringAction 1444320746246 Sudoku.java RENAME checkGrid=>boolean check FIELD
+RefactoringAction 1444320748774 Sudoku.java RENAME check=>boolean checkNumberI FIELD
+RefactoringAction 1444320749806 Sudoku.java RENAME checkNumberI=>boolean checkNumberIn FIELD
+RefactoringAction 1444320752335 Sudoku.java RENAME checkNumberIn=>boolean checkNumberInGrid FIELD
+RefactoringAction 1444320755854 Sudoku.java RENAME checkNumberInGrid=>boolean checkNumberInGrid() METHOD
+RefactoringAction 1444320759391 Sudoku.java RENAME checkNumberInGrid()=>boolean checkNumberInGrid(int) METHOD
+RefactoringAction 1444320764947 Sudoku.java RENAME checkNumberInGrid(int)=>boolean checkNumberInGrid(int, int) METHOD
+RefactoringAction 1444320777980 Sudoku.java RENAME checkNumberInGrid(int, int)=>boolean checkNumberInGrid(int, int, int) METHOD
+EditAction 1444321322330 SudokuBoard.java 112 0 0 0
