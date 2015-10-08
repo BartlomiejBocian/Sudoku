@@ -88,8 +88,8 @@ public class Sudoku {
 	}
 
 	public boolean checkSubGrid(){
-		for(int column = 0; column <= 8; column++){
-			for(int row = 0; row <= 8; row++){
+		for(int row = 0; row <= 8; row++){
+			for(int column = 0; column <= 8; column++){
 				if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
 					return false;
 				}
