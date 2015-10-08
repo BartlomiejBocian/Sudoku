@@ -101,7 +101,7 @@ public class Sudoku {
 	private boolean checkNumberInGrid(int num, int row, int col){
 		int r = (row / 3) * 3;
 		int c = (col /3) * 3;
-		for (int i = 0; i < 9; i++){
+		for (int i = 0; i <= 8; i++){
 			if(getCell(r + (i % 3), c+(i / 3)) == num){
 				return true;
 			}
