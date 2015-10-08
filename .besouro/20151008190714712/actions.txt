@@ -90,3 +90,14 @@ EditAction 1444324791036 TestSudokuVerifier.java 2194 7 18 11
 UnitTestCaseAction 1444324792265 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444324792268 TestSudokuVerifier FAIL
 EditAction 1444324897163 TestSudokuVerifier.java 2194 7 18 11
+UnitTestCaseAction 1444324897788 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444324897789 TestSudokuVerifier FAIL
+RefactoringAction 1444325120459 Sudoku.java ADD import java.util.Set IMPORT
+RefactoringAction 1444325182922 Sudoku.java ADD import java.util.HashSet IMPORT
+UnitTestCaseAction 1444325188373 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444325188380 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444325239392 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444325239392 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444325313840 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444325313841 TestSudokuVerifier FAIL
+EditAction 1444325802519 TestSudokuVerifier.java 2194 7 18 11

@@ -3,7 +3,9 @@ package org.univoulu.tol.sqatlab.sudoku;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class Sudoku {
 
@@ -62,12 +64,12 @@ public class Sudoku {
 
 	public boolean checkDigitInGlobalRow(){
 		for(int row = 0; row <= 8; row++){
-			Map<Character,Integer> map = new HashMap<Character,Integer>();
+			Set<Integer> map = new HashSet<Integer>();
 			for(int column = 0; column <= 8; column++){
-				if (map.containsValue(myPuzzle[row][column])) {
+				if (map.contains(myPuzzle[row][column])) {
 					return false;
 				} else {
-					map.put(c,myPuzzle[row][column]);
+					map.add(myPuzzle[row][column]);
 				}
 			}
 		} 
@@ -76,12 +78,12 @@ public class Sudoku {
 
 	public boolean checkDigitInGlobalColumn(){
 		for(int column = 0; column <= 8; column++){
-			Map<Character,Integer> map = new HashMap<Character,Integer>();
+			Set<Integer> map = new HashSet<Integer>();
 			for(int row = 0; row <= 8; row++){
-				if (map.containsValue(myPuzzle[row][column])) {
+				if (map.contains(myPuzzle[row][column])) {
 					return false;
 				} else {
-					map.put(c,myPuzzle[row][column]);
+					map.add(myPuzzle[row][column]);
 				}
 			}
 		} 
