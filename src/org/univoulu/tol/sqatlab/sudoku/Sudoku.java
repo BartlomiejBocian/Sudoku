@@ -90,11 +90,11 @@ public class Sudoku {
 	public boolean checkSubGrid(){
 		for(int row = 0; row <= 8; row++){
 			for(int column = 0; column <= 8; column++){
-				for (int i = 1; i <= 9; i++) {
-					if (checkNumberInGrid(i, row, column)) {
+//				for (int i = 1; i <= 9; i++) {
+					if (checkNumberInGrid(myPuzzle[row][column], row, column)) {
 						return true;
-					}
-				}
+					} else return false;
+//				}
 			} 
 		}
 		return false;
@@ -104,9 +104,8 @@ public class Sudoku {
 		int r = (row / 3) * 3;
 		int c = (col /3) * 3;
 		for (int i = 0; i <= 8; i++){
-			System.out.println(getCell(r + (i % 3), c+(i / 3)));
-			if(getCell(r + (i % 3), c+(i / 3)) == num){
-//				System.out.println("DUPA");
+//			System.out.println(getCell(r + (i % 3), c+(i / 3)));
+			if(myPuzzle[r + (i % 3)][c + (i / 3)] == num){
 				return false;
 			}
 		}
