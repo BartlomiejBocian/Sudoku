@@ -87,3 +87,6 @@ RefactoringAction 1444324156988 Sudoku.java REMOVE getCell(int, int) METHOD
 UnitTestCaseAction 1444324159955 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444324159956 TestSudokuVerifier FAIL
 EditAction 1444324791036 TestSudokuVerifier.java 2194 7 18 11
+UnitTestCaseAction 1444324792265 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444324792268 TestSudokuVerifier FAIL
+EditAction 1444324897163 TestSudokuVerifier.java 2194 7 18 11
