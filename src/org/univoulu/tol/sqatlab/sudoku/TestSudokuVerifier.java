@@ -53,7 +53,7 @@ public class TestSudokuVerifier {
 		//invalid
 		assertEquals(-2, sv.verify(inValidStringTest2));
 		//valid
-//		assertEquals(0, sv.verify(validString));
+		assertEquals(0, sv.verify(validString));
 	}
 
 	@Test
